@@ -1,4 +1,4 @@
-package semana1e2.classesabstratas;
+package programacao.semanas1e2.classesabstratas;
 
 /*
 De acordo com esta classe, criar as seguintes classes:

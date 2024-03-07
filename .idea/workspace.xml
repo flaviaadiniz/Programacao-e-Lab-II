@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Figura.java" afterDir="false" />
-    </list>
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add shape classes, Principal class and main method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +74,16 @@
       <option name="presentableId" value="Default" />
       <updated>1709773538095</updated>
       <workItem from="1709773540305" duration="759000" />
-      <workItem from="1709849130769" duration="3650000" />
+      <workItem from="1709849130769" duration="4451000" />
     </task>
+    <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
+      <created>1709854905023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709854905023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,15 +100,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/programacao/semanas1e2/classesabstratas/Principal.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add shape classes, Principal class and main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add shape classes, Principal class and main method" />
   </component>
 </project>

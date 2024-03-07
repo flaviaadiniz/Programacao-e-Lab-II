@@ -4,9 +4,9 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        Retangulo retangulo = new Retangulo("azul", 10, 5);
-        Circulo circulo = new Circulo("rosa", 7);
-        Triangulo triangulo = new Triangulo("branco", 10, 8, 4, 4);
+        Figura retangulo = new Retangulo("azul", 10, 5);
+        Figura circulo = new Circulo("rosa", 7);
+        Figura triangulo = new Triangulo("branco", 10, 8, 4, 4);
 
         calculaImprimeFigura(retangulo);
         calculaImprimeFigura(circulo);

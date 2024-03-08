@@ -22,12 +22,12 @@ public class Circulo extends Figura {
 
     @Override
     public double calculaArea() {
-        return Math.PI * Math.pow(raio, 2);
+        return Math.round(Math.PI * Math.pow(raio, 2));
     }
 
     @Override
     public double calculaPerimetro() {
-        return 2 * Math.PI * raio;
+        return Math.round(2 * Math.PI * raio);
     }
 
 

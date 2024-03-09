@@ -20,6 +20,9 @@ public class Principal {
         ExerciciosArrays.exercicio1d();
         System.out.println();
 
+        System.out.println("\n-- Exercício 2 --");
+        ExerciciosArrays.exercicio2();
+        System.out.println();
 
     }
 

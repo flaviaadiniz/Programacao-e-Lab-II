@@ -1,4 +1,4 @@
-package programacao.semanas1e2.classesabstratas;
+package src.main.java.semanas1e2.classesabstratas;
 
 public class Retangulo extends Figura {
 

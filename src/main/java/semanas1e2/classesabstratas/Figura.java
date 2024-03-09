@@ -1,4 +1,4 @@
-package programacao.semanas1e2.classesabstratas;
+package src.main.java.semanas1e2.classesabstratas;
 
 /*
 De acordo com esta classe, criar as seguintes classes:

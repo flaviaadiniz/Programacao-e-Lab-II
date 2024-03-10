@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add first 4 exercises about arrays">
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Refactor methods and extract method to print arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/Principal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" afterDir="false" />
     </list>
@@ -49,7 +47,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Principal">
@@ -131,7 +129,7 @@
       <workItem from="1709907062294" duration="661000" />
       <workItem from="1709947611075" duration="10000" />
       <workItem from="1710019064542" duration="164000" />
-      <workItem from="1710019246850" duration="5431000" />
+      <workItem from="1710019246850" duration="7301000" />
     </task>
     <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
       <created>1709854905023</created>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710025956489</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refactor methods and extract method to print arrays">
+      <created>1710028051437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710028051437</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +204,7 @@
     <MESSAGE value="Refactor and reorganize project" />
     <MESSAGE value="Update unversioned files" />
     <MESSAGE value="Add first 4 exercises about arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first 4 exercises about arrays" />
+    <MESSAGE value="Refactor methods and extract method to print arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor methods and extract method to print arrays" />
   </component>
 </project>

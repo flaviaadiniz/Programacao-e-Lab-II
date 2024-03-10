@@ -13,7 +13,7 @@ public class ExerciciosArrays {
             }
         }
 
-        printArray(array);
+        printArrayInt(array);
     }
 
 
@@ -26,7 +26,7 @@ public class ExerciciosArrays {
             }
         }
 
-        printArray(array);
+        printArrayInt(array);
     }
 
 
@@ -39,7 +39,7 @@ public class ExerciciosArrays {
             }
         }
 
-        printArray(array);
+        printArrayInt(array);
     }
 
 
@@ -55,7 +55,7 @@ public class ExerciciosArrays {
             valor = valor == -1 ? 0 : -1;
         }
 
-        printArray(array);
+        printArrayInt(array);
     }
 
 
@@ -75,14 +75,50 @@ public class ExerciciosArrays {
             }
         }
 
-        printArray(array);
+        printArrayInt(array);
+    }
+
+
+    public static void exercicio3() {
+        Scanner scanner = new Scanner(System.in);
+        double[][] array = new double[2][5];
+
+        System.out.println("Vamos criar uma matriz bidimensional com 10 elementos (5 por linha).");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print("Digite um valor: ");
+                array[i][j] = scanner.nextDouble();
+            }
+        }
+
+        printArrayDouble(array);
+    }
+
+
+    public static int exercicio4(double[][] array) {
+        int elements = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                elements++;
+            }
+        }
+        return elements;
     }
 
 
 
+    // static method to print bidimensional arrays of int
+    private static void printArrayInt(int[][] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 
-    // static method to print bidimensional arrays
-    private static void printArray(int[][] array) {
+    // static method to print bidimensional arrays of double
+    private static void printArrayDouble(double[][] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + " ");

@@ -24,6 +24,15 @@ public class Principal {
         ExerciciosArrays.exercicio2();
         System.out.println();
 
+        System.out.println("\n-- Exercício 3 --");
+        ExerciciosArrays.exercicio3();
+        System.out.println();
+
+        System.out.println("\n-- Exercício 4 --");
+        double[][] array = new double[3][5];
+        System.out.println("O array tem " + ExerciciosArrays.exercicio4(array) + " elementos.");
+        System.out.println();
+
     }
 
 }

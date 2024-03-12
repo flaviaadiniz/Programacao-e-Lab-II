@@ -33,6 +33,27 @@ public class Principal {
         System.out.println("O array tem " + ExerciciosArrays.exercicio4(array) + " elementos.");
         System.out.println();
 
+        System.out.println("\n-- Exercício 5 --");
+        double[][] array2 = new double[3][3];
+        for (int i = 0; i < array2.length; i++) {
+            for (int j = 0; j < array2[i].length; j++) {
+                array2[i][j] = Math.round(Math.random() * 100);
+            }
+        }
+        System.out.println(ExerciciosArrays.exercicio5(array2));
+        System.out.println();
+
+        System.out.println("\n-- Exercício 6 --");
+        double[][] array3 = new double[2][2];
+        for (int i = 0; i < array3.length; i++) {
+            for (int j = 0; j < array3[i].length; j++) {
+                array3[i][j] = Math.round(Math.random() * 100);
+            }
+        }
+        System.out.println(ExerciciosArrays.exercicio6(array3));
+        System.out.println();
+
+
     }
 
 }

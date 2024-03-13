@@ -105,11 +105,6 @@ public class ExerciciosArrays {
         return elements;
     }
 
-    /*
-    Exercício 6: Crie um método que recebe uma matriz de double e retorna um String de saída
-para ela, com seus valores separados por um hífen, mas mantendo o formato da matriz. Por
-exemplo, para a matriz de entrada abaixo:
-     */
 
     public static String exercicio5(double[][] array) {
         String arrayString = "";
@@ -123,6 +118,7 @@ exemplo, para a matriz de entrada abaixo:
         return arrayString;
     }
 
+
     public static double exercicio6(double[][] array) {
         double highestValue = 0.0;
         for (int i = 0; i < array.length; i++) {
@@ -131,6 +127,17 @@ exemplo, para a matriz de entrada abaixo:
             }
         }
         return highestValue;
+    }
+
+
+    public static int exercicio7(int[][] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                sum += array[i][j];
+            }
+        }
+        return sum;
     }
 
 

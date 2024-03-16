@@ -137,7 +137,26 @@ public class ExerciciosArrays {
                 sum += array[i][j];
             }
         }
+        printArrayInt(array);
         return sum;
+    }
+
+
+    public static double exercicio8(double[][] array) {
+        double sum = 0.0;
+        double average = 0.0;
+        int elements = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                sum += array[i][j];
+                elements++;
+            }
+        }
+        average = sum / elements;
+        printArrayDouble(array);
+
+        return average;
     }
 
 

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add exercises 5 and 6">
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add exercise 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +133,9 @@
       <workItem from="1710019064542" duration="164000" />
       <workItem from="1710019246850" duration="9180000" />
       <workItem from="1710169679710" duration="3801000" />
-      <workItem from="1710207674513" duration="182000" />
+      <workItem from="1710207674513" duration="541000" />
+      <workItem from="1710374788593" duration="39000" />
+      <workItem from="1710550488739" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
       <created>1709854905023</created>
@@ -195,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710205860235</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add exercise 7">
+      <created>1710295985838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710295985838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +234,8 @@
     <MESSAGE value="Refactor methods and extract method to print arrays" />
     <MESSAGE value="Add exercises 3 and 4 and method to print bidimensional array of doubles" />
     <MESSAGE value="Add exercises 5 and 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add exercises 5 and 6" />
+    <MESSAGE value="Add exercise 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exercise 7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programacao_e_Lab_II$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1710205678381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

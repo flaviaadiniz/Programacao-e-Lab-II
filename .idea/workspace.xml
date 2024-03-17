@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add exercise 9">
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add exercise 10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/excecoes/ArCondicionado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/excecoes/PrincipalTermometro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas1e2/arraysbidimensionais/PrincipalArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Principal">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.arraysbidimensionais.Principal" />
+  <component name="RunManager" selected="Application.PrincipalTermometro">
+    <configuration name="PrincipalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.arraysbidimensionais.PrincipalArrays" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.main.java.semanas1e2.arraysbidimensionais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalTermometro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.excecoes.PrincipalTermometro" />
+      <module name="Programacao-e-Lab-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.semanas1e2.excecoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,13 +122,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Principal" />
+      <item itemvalue="Application.PrincipalArrays" />
+      <item itemvalue="Application.PrincipalTermometro" />
       <item itemvalue="Application.Programacao-e-Lab-II" />
       <item itemvalue="Maven.Programacao-e-Lab-II" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.PrincipalTermometro" />
+        <item itemvalue="Application.PrincipalArrays" />
         <item itemvalue="Application.Programacao-e-Lab-II" />
       </list>
     </recent_temporary>
@@ -137,7 +153,7 @@
       <workItem from="1710207674513" duration="541000" />
       <workItem from="1710374788593" duration="39000" />
       <workItem from="1710550488739" duration="850000" />
-      <workItem from="1710635486722" duration="2500000" />
+      <workItem from="1710635486722" duration="3901000" />
     </task>
     <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
       <created>1709854905023</created>
@@ -223,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710636252989</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add exercise 10">
+      <created>1710705846034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710705846034</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +276,8 @@
     <MESSAGE value="Add exercise 7" />
     <MESSAGE value="Add exercise 8" />
     <MESSAGE value="Add exercise 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add exercise 9" />
+    <MESSAGE value="Add exercise 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exercise 10" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programacao_e_Lab_II$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1710205678381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

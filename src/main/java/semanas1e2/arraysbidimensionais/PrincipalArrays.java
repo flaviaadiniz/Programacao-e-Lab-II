@@ -2,7 +2,7 @@ package src.main.java.semanas1e2.arraysbidimensionais;
 
 import java.util.Arrays;
 
-public class Principal {
+public class PrincipalArrays {
 
     public static void main(String[] args) {
 

@@ -182,6 +182,33 @@ public class ExerciciosArrays {
     }
 
 
+    public static int[] exercicio10(int[][] array) {
+        int arrayUniSize = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] > 0) {
+                    arrayUniSize++;
+                }
+            }
+        }
+
+        int[] newArray = new int[arrayUniSize];
+        int newArrayIndex = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] > 0) {
+                    newArray[newArrayIndex] = array[i][j];
+                    newArrayIndex++;
+                }
+            }
+        }
+
+        return newArray;
+    }
+
+
 
     // static method to print bidimensional arrays of int
     private static void printArrayInt(int[][] array) {

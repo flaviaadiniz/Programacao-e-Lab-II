@@ -83,6 +83,12 @@ public class Principal {
         System.out.println("\n-- Exercício 9 --");
         System.out.println(Arrays.deepToString(ExerciciosArrays.exercicio9()));
 
+
+        System.out.println("\n-- Exercício 10 --");
+        int[][] array6 = {{-1, 3, 10, -8, 35}, {97, -3, 10, -88, 5}, {9, 4, -4, 12, 27}};
+        System.out.println("Array unidimensional de inteiros: " + Arrays.toString(ExerciciosArrays.exercicio10(array6)));
+        System.out.println();
+
     }
 
 }

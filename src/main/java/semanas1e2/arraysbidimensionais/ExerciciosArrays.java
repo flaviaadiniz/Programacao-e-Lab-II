@@ -1,5 +1,6 @@
 package src.main.java.semanas1e2.arraysbidimensionais;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ExerciciosArrays {
@@ -157,6 +158,27 @@ public class ExerciciosArrays {
         printArrayDouble(array);
 
         return average;
+    }
+
+
+    public static String[][] exercicio9() {
+        Scanner scanner = new Scanner(System.in);
+
+        int linhas = (int) Math.round(Math.random() * 5);
+        int colunas = (int) Math.round(Math.random() * 3);
+
+        String[][] matriz = new String[linhas][colunas];
+
+        System.out.println("Vamos criar uma matriz de caracteres com " + linhas + " linhas e " + colunas + " colunas!");
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print("Digite um caracter: ");
+                matriz[i][j] = scanner.nextLine();
+            }
+        }
+
+        return matriz;
     }
 
 

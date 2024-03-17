@@ -1,5 +1,7 @@
 package src.main.java.semanas1e2.arraysbidimensionais;
 
+import java.util.Arrays;
+
 public class Principal {
 
     public static void main(String[] args) {
@@ -76,6 +78,10 @@ public class Principal {
         }
         System.out.println("A média dos números da matriz é: " + ExerciciosArrays.exercicio8(array5));
         System.out.println();
+
+
+        System.out.println("\n-- Exercício 9 --");
+        System.out.println(Arrays.deepToString(ExerciciosArrays.exercicio9()));
 
     }
 

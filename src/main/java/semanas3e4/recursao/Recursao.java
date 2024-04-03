@@ -11,9 +11,9 @@ public class Recursao {
 
         System.out.println();
 
-        System.out.println("O fatorial de 3 é: " + fatorialRecursivo(3));
-        System.out.println("O fatorial de 5 é: " + fatorialRecursivo(5));
-        System.out.println("O fatorial de 10 é: " + fatorialRecursivo(10));
+        System.out.println("O fatorial de 3 é: " + fatorialRecursivoPublico(3));
+        System.out.println("O fatorial de 5 é: " + fatorialRecursivoPublico(5));
+        System.out.println("O fatorial de 10 é: " + fatorialRecursivoPublico(-10));
 
     }
 
@@ -27,11 +27,18 @@ public class Recursao {
     }
 
 
-    private static int fatorialRecursivo(int n) {
+    public static int fatorialRecursivoPublico(int n) throws IllegalArgumentException{
+        if (n <= 0) {
+            throw new IllegalArgumentException("Não é possível realizar fatorial de número negativo!");
+        }
+        return fatorialRecursivoPrivado(n);
+    }
+
+    private static int fatorialRecursivoPrivado(int n) {
         if (n <= 1) {
             return 1;
         } else {
-            return n * fatorialRecursivo(n - 1);
+            return n * fatorialRecursivoPrivado(n - 1);
         }
     }
 

@@ -13,7 +13,14 @@ public class Recursao {
 
         System.out.println("O fatorial de 3 é: " + fatorialRecursivoPublico(3));
         System.out.println("O fatorial de 5 é: " + fatorialRecursivoPublico(5));
-        System.out.println("O fatorial de 10 é: " + fatorialRecursivoPublico(-10));
+        System.out.println("O fatorial de 10 é: " + fatorialRecursivoPublico(10));
+
+        System.out.println();
+
+        System.out.println("Verificar se o número 4 encontra-se no array passado por parâmetro:");
+
+        int[] inteiros = {10, 8, 97, 4, 3, 1};
+        System.out.println(encontraN(inteiros, 4));
 
     }
 
@@ -40,6 +47,24 @@ public class Recursao {
         } else {
             return n * fatorialRecursivoPrivado(n - 1);
         }
+    }
+
+
+    public static boolean encontraN(int[] array, int n) throws IllegalArgumentException{
+        if (array == null) {
+            throw new IllegalArgumentException();
+        }
+        return encontraN(array, n, 0);
+    }
+
+    private static boolean encontraN(int[] array, int n, int i) {
+        if(i >= array.length) {
+            return false;
+        }
+        if(array[i] == n) {
+            return true;
+        }
+        return encontraN(array, n, i+1);
     }
 
 }

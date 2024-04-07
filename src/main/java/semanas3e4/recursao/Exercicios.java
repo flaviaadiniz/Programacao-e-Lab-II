@@ -4,16 +4,16 @@ public class Exercicios {
 
     public static void main(String[] args) {
 
-        System.out.println(exercicio1(5,3));
-        System.out.println(exercicio1(15,3));
-        System.out.println(exercicio1(28, -45));
+//        System.out.println(exercicio1(5,3));
+//        System.out.println(exercicio1(15,3));
+//        System.out.println(exercicio1(28, -45));
+//
+//        System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + exercicio2(5));
+//        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio2(10));
+//
+//        System.out.println(exercicio3(3, 2));
 
-        System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + exercicio2(5));
-        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio2(10));
-
-        System.out.println(exercicio3(3, 2));
-
-        int[] array = {1, 2, 3};
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 50};
         System.out.println(exercicio4(array, array.length));
 
     }
@@ -70,10 +70,10 @@ public class Exercicios {
 
     //Exercício 4: Escreva um método recursivo que retorne a soma dos elementos de um array v contendo t elementos.
     public static int exercicio4(int[] v, int t) {
-        if (v.length - 1 == t) {
-            return v[v.length - 1];
+        if (t == 0) {
+            return 0;
         } else {
-            return v[v.length - 1] + exercicio4(v, t - 1);
+            return v[v.length - t] + exercicio4(v, t - 1);
         }
     }
 

@@ -11,6 +11,8 @@ public class Exercicios {
         System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + metodo2(5));
         System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + metodo2(10));
 
+        System.out.println(metodo3(3, 2));
+
     }
 
 
@@ -39,6 +41,24 @@ public class Exercicios {
             return n;
         } else {
             return n + metodo2(n-1);
+        }
+    }
+
+    /*
+    A Sequência de Ackerman é dada por:
+    A(m, n) = n + 1, se m = 0
+    A(m, n) = A(m − 1, 1), se m != 0 e n = 0
+    A(m, n) = A(m − 1, A(m, n − 1)), se m != 0 e n != 0
+
+    Sabendo disto, implemente o método A descrito acima.
+     */
+    public static int metodo3(int m, int n) {
+        if (m == 0) {
+            return n + 1;
+        } else if (n == 0) {
+            return metodo3(m-1, 1);
+        } else {
+            return metodo3(m-1, metodo3(m, n-1));
         }
     }
 

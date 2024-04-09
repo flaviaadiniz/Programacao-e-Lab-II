@@ -12,9 +12,13 @@ public class Exercicios {
 //        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio2(10));
 //
 //        System.out.println(exercicio3(3, 2));
+//
+//        int[] array = {1, 2, 3, 4, 5, 6, 7, 50};
+//        System.out.println(exercicio4(array, array.length));
 
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 50};
-        System.out.println(exercicio4(array, array.length));
+        System.out.println(exercicio5(2));
+        System.out.println(exercicio5(4));
+        System.out.println(exercicio5(9));
 
     }
 
@@ -48,6 +52,7 @@ public class Exercicios {
         }
     }
 
+
     /*
     Exercício 3:
     A Sequência de Ackerman é dada por:
@@ -75,6 +80,19 @@ public class Exercicios {
         } else {
             return v[v.length - t] + exercicio4(v, t - 1);
         }
+    }
+
+
+    // Seja o método abaixo, qual o resultado para as chamadas: f(2), f(4), f(9)?
+    public static int exercicio5(int x){
+        int res;
+
+        if(x < 4) {
+            res = 3 * x;
+        } else {
+            res = 2 * exercicio5(x - 4) + 5;
+        }
+        return res;
     }
 
 

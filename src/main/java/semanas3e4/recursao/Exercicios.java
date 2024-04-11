@@ -4,17 +4,17 @@ public class Exercicios {
 
     public static void main(String[] args) {
 
-//        System.out.println(exercicio1(5,3));
-//        System.out.println(exercicio1(15,3));
-//        System.out.println(exercicio1(28, -45));
-//
-//        System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + exercicio2(5));
-//        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio2(10));
-//
-//        System.out.println(exercicio3(3, 2));
-//
-//        int[] array = {1, 2, 3, 4, 5, 6, 7, 50};
-//        System.out.println(exercicio4(array, array.length));
+        System.out.println(exercicio1(5,3));
+        System.out.println(exercicio1(15,3));
+        System.out.println(exercicio1(28, -45));
+
+        System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + exercicio2(5));
+        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio2(10));
+
+        System.out.println(exercicio3(3, 2));
+
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 50};
+        System.out.println(exercicio4(array, array.length));
 
         System.out.println(exercicio5(2));
         System.out.println(exercicio5(4));
@@ -83,7 +83,7 @@ public class Exercicios {
     }
 
 
-    // Seja o método abaixo, qual o resultado para as chamadas: f(2), f(4), f(9)?
+    //Exercício 5: Seja o método abaixo, qual o resultado para as chamadas: f(2), f(4), f(9)?
     public static int exercicio5(int x){
         int res;
 
@@ -94,6 +94,5 @@ public class Exercicios {
         }
         return res;
     }
-
 
 }

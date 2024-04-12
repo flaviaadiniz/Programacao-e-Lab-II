@@ -7,6 +7,11 @@ public class Lista1 {
         char[] letters = {'F', 'L', 'A', 'V', 'I', 'A'};
         printArrayBackwards(letters);
 
+        System.out.println();
+
+        double[][] biDimensionalArray = {{1, 2}, {3, 4}, {5, 6}};
+        System.out.println(sumDoubles(biDimensionalArray));
+
     }
 
 
@@ -29,5 +34,28 @@ public class Lista1 {
 //            printArrayBackwardsPrivate(array, i);
 //        }
     }
+
+
+
+    // Ex 2: Crie um método recursivo que recebe um array bidimensional de double e retorna a soma dos elementos deste array
+    public static double sumDoubles(double[][] biDimensionalArray) throws IllegalArgumentException {
+        if (biDimensionalArray == null) {
+            throw new IllegalArgumentException("O array não pode ser nulo.");
+        }
+        return sumDoublesPrivate(biDimensionalArray, 0,0);
+    }
+
+    private static double sumDoublesPrivate(double[][] biDimensionalArray, int lines, int columns) {
+        if (lines >= biDimensionalArray.length) {
+            return 0;
+        }
+
+        if (columns >= biDimensionalArray[lines].length) {
+            return sumDoublesPrivate(biDimensionalArray, lines+1, 0);
+        }
+
+        return biDimensionalArray[lines][columns] + sumDoublesPrivate(biDimensionalArray, lines, columns+1);
+    }
+
 
 }

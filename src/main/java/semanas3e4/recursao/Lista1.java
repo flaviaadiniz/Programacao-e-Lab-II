@@ -12,6 +12,11 @@ public class Lista1 {
         double[][] biDimensionalArray = {{1, 2}, {3, 4}, {5, 6}};
         System.out.println(sumDoubles(biDimensionalArray));
 
+        System.out.println();
+
+        int[] intArray = {23, 35, 16, 8, 13, 11, 10, 20, 9, 12};
+        System.out.println(findPositionOfLowerValue(intArray));
+
     }
 
 
@@ -55,6 +60,31 @@ public class Lista1 {
         }
 
         return biDimensionalArray[lines][columns] + sumDoublesPrivate(biDimensionalArray, lines, columns+1);
+    }
+
+
+    /*
+    Crie um método chamado encontraPosicaoMenorValor. Este método deve encontrar a posição do menor valor de um array de inteiros V
+    (recebido por parâmetro). Por exemplo, digamos que o array abaixo seja passado por parâmetro:
+    {23, 35, 16, 8, 13, 11, 10, 20, 9, 12} - O método, neste caso, retornaria o valor 3
+     */
+    public static int findPositionOfLowerValue(int[] intArray) {
+        if (intArray == null) {
+            throw new IllegalArgumentException("O array não pode ser nulo.");
+        }
+        return findPositionOfLowerValuePrivate(intArray, 0, intArray[0], 0);
+    }
+
+    private static int findPositionOfLowerValuePrivate(int[] intArray, int counter, int lowerValue, int position) {
+        if (counter < intArray.length - 1) {
+            if (intArray[counter] < lowerValue) {
+                lowerValue = intArray[counter];
+                position = counter;
+            }
+            return findPositionOfLowerValuePrivate(intArray, counter + 1, lowerValue, position);
+        }
+
+        return position;
     }
 
 

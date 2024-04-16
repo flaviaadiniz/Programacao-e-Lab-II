@@ -72,16 +72,15 @@ public class Lista1 {
         if (intArray == null) {
             throw new IllegalArgumentException("O array não pode ser nulo.");
         }
-        return findPositionOfLowerValuePrivate(intArray, 0, intArray[0], 0);
+        return findPositionOfLowerValuePrivate(intArray, 0, 0);
     }
 
-    private static int findPositionOfLowerValuePrivate(int[] intArray, int counter, int lowerValue, int position) {
+    private static int findPositionOfLowerValuePrivate(int[] intArray, int counter, int position) {
         if (counter < intArray.length - 1) {
-            if (intArray[counter] < lowerValue) {
-                lowerValue = intArray[counter];
+            if (intArray[counter] < intArray[position]) {
                 position = counter;
             }
-            return findPositionOfLowerValuePrivate(intArray, counter + 1, lowerValue, position);
+            return findPositionOfLowerValuePrivate(intArray, counter + 1, position);
         }
 
         return position;

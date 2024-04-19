@@ -8,8 +8,8 @@ public class Exercicios {
         System.out.println(exercicio1(15,3));
         System.out.println(exercicio1(28, -45));
 
-        System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + exercicio2(5));
-        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio2(10));
+        System.out.println("A soma dos inteiros de 1 a 5 é igual a: " + exercicio8(5));
+        System.out.println("A soma dos inteiros de 1 a 10 é igual a: " + exercicio8(10));
 
         System.out.println(exercicio3(3, 2));
 
@@ -19,6 +19,12 @@ public class Exercicios {
         System.out.println(exercicio5(2));
         System.out.println(exercicio5(4));
         System.out.println(exercicio5(9));
+
+        System.out.println(exercicio6(4));
+
+        int[] array2 = {1, 2, 3, 4, 5};
+        System.out.println(exercicio7(array2));
+        System.out.println(exercicio8(array2, 2));
 
     }
 
@@ -44,11 +50,11 @@ public class Exercicios {
 
 
     //Exercício 2: Crie um método recursivo para calcular a soma dos inteiros de 1 a n, sendo n >= 1.
-    public static int exercicio2(int n) {
+    public static int exercicio8(int n) {
         if (n < 1) {
             return n;
         } else {
-            return n + exercicio2(n-1);
+            return n + exercicio8(n-1);
         }
     }
 
@@ -93,6 +99,27 @@ public class Exercicios {
             res = 2 * exercicio5(x - 4) + 5;
         }
         return res;
+    }
+
+
+    public static int exercicio6(int x){
+        if(x == 2) return x;
+        return -6 * exercicio6(x-2) + x;
+    }
+
+
+    public static boolean exercicio7(int[] v){
+        if(v.length == 0) return false;
+        int[] aux = new int[v.length-1];
+        for(int j = 1; j < v.length; j++)
+            aux[j-1] = v[j];
+        return exercicio7(aux) || (v[0] % 2 != 1);
+    }
+
+
+    public static int exercicio8(int[] v, int i){
+        if(i == v.length) return 0;
+        return v[i] + exercicio8(v, ++i);
     }
 
 }

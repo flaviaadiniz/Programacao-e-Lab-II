@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Delete unused files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Recursao.java" afterDir="false" />
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Refactor method findPositionOfLowerValue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Lista2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Exercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Exercicios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Recursao">
-    <configuration name="PrincipalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.arraysbidimensionais.PrincipalArrays" />
+  <component name="RunManager">
+    <configuration name="Exercicios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas3e4.recursao.Exercicios" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.semanas1e2.arraysbidimensionais.*" />
+          <option name="PATTERN" value="src.main.java.semanas3e4.recursao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas3e4.recursao.Lista1" />
+      <module name="Programacao-e-Lab-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.semanas3e4.recursao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,19 +84,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.main.resources.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrincipalTermometro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.excecoes.PrincipalTermometro" />
-      <module name="Programacao-e-Lab-II" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.semanas1e2.excecoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,20 +143,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Lista1" />
+      <item itemvalue="Application.Exercicios" />
       <item itemvalue="Application.Recursao" />
-      <item itemvalue="Application.PrincipalArrays" />
       <item itemvalue="Application.PrincipalBanco" />
-      <item itemvalue="Application.PrincipalTermometro" />
       <item itemvalue="Application.src.main.java.semanas1e2.interfaces.PrincipalBanco" />
       <item itemvalue="Maven.Programacao-e-Lab-II" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lista1" />
+        <item itemvalue="Application.Exercicios" />
         <item itemvalue="Application.Recursao" />
         <item itemvalue="Application.src.main.java.semanas1e2.interfaces.PrincipalBanco" />
         <item itemvalue="Application.PrincipalBanco" />
-        <item itemvalue="Application.PrincipalTermometro" />
-        <item itemvalue="Application.PrincipalArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +181,16 @@
       <workItem from="1710635486722" duration="11503000" />
       <workItem from="1710724000556" duration="466000" />
       <workItem from="1711930536355" duration="1823000" />
+      <workItem from="1712019602331" duration="691000" />
+      <workItem from="1712109781770" duration="3533000" />
+      <workItem from="1712281655526" duration="3994000" />
+      <workItem from="1712455818781" duration="6239000" />
+      <workItem from="1712625704815" duration="9206000" />
+      <workItem from="1712972587396" duration="2873000" />
+      <workItem from="1713141831038" duration="657000" />
+      <workItem from="1713227113225" duration="562000" />
+      <workItem from="1713485963629" duration="324000" />
+      <workItem from="1713486339214" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
       <created>1709854905023</created>
@@ -300,7 +311,112 @@
       <option name="project" value="LOCAL" />
       <updated>1710724288975</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add Recursao class to practice recursive methods">
+      <created>1712019748346</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712019748346</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add factorial public method to verify if the argument sent on parameter is negative">
+      <created>1712110381611</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712110381611</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add a recursive method to verify if a number is part of an array">
+      <created>1712195379853</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712195379853</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add first exercises">
+      <created>1712282260755</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712282260755</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add exercise metodo2">
+      <created>1712367710119</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712367710119</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add exercise metodo3">
+      <created>1712456606773</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712456606773</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Refactor all methods and add method for exercise 4">
+      <created>1712527088990</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712527088990</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fix method for exercise 4">
+      <created>1712528379559</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712528379559</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add method for exercise5">
+      <created>1712625846548</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625846548</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Reorganize exercises">
+      <created>1712797044843</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712797044843</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add exercise 1 to Lista1">
+      <created>1712798803614</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712798803614</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Refactor exercise 1">
+      <created>1712885283102</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712885283102</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add exercise 2">
+      <created>1712886041335</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712886041335</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add exercise 3">
+      <created>1712974356363</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712974356363</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Refactor method findPositionOfLowerValue">
+      <created>1713227499844</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713227499844</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,13 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add shape classes, Principal class and main method" />
-    <MESSAGE value="Change instances of Retangulo, Circulo and Triangulo to type Figura" />
-    <MESSAGE value="Round the results of Circulo area and perimeter" />
-    <MESSAGE value="Refactor and reorganize project" />
-    <MESSAGE value="Update unversioned files" />
-    <MESSAGE value="Add first 4 exercises about arrays" />
-    <MESSAGE value="Refactor methods and extract method to print arrays" />
     <MESSAGE value="Add exercises 3 and 4 and method to print bidimensional array of doubles" />
     <MESSAGE value="Add exercises 5 and 6" />
     <MESSAGE value="Add exercise 7" />
@@ -335,7 +444,22 @@
     <MESSAGE value="Rename main class" />
     <MESSAGE value="Add exercise about interfaces" />
     <MESSAGE value="Delete unused files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete unused files" />
+    <MESSAGE value="Add Recursao class to practice recursive methods" />
+    <MESSAGE value="Add factorial public method to verify if the argument sent on parameter is negative" />
+    <MESSAGE value="Add a recursive method to verify if a number is part of an array" />
+    <MESSAGE value="Add first exercises" />
+    <MESSAGE value="Add exercise metodo2" />
+    <MESSAGE value="Add exercise metodo3" />
+    <MESSAGE value="Refactor all methods and add method for exercise 4" />
+    <MESSAGE value="Fix method for exercise 4" />
+    <MESSAGE value="Add method for exercise5" />
+    <MESSAGE value="Reorganize exercises" />
+    <MESSAGE value="Add exercise 1 to Lista1" />
+    <MESSAGE value="Refactor exercise 1" />
+    <MESSAGE value="Add exercise 2" />
+    <MESSAGE value="Add exercise 3" />
+    <MESSAGE value="Refactor method findPositionOfLowerValue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor method findPositionOfLowerValue" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programacao_e_Lab_II$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1710205678381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

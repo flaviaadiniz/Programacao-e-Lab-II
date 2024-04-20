@@ -4,7 +4,7 @@ import java.io.*;
 
 public class LerConsole {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         InputStream inputStream = System.in;
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
@@ -25,6 +25,8 @@ public class LerConsole {
         } else {
             System.out.println("Seu time é " + time);
         }
+
+        bufferedReader.close();
 
     }
 

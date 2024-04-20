@@ -1,0 +1,2 @@
+Testando leitura de arquivos
+Hoje é dia 20/04/2024

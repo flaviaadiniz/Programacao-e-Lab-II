@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Refactor method findPositionOfLowerValue">
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add Aluno and Recursao classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labirinto/Labirinto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labirinto/LabirintoExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labirinto/LabirintoMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Lista2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Exercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas3e4/recursao/Exercicios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +31,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2dL3T2KBkMMbGWcQBXcR7IuE84u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -51,13 +56,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Exercicios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas3e4.recursao.Exercicios" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="src.main.java.labirinto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Labirinto">
+    <configuration name="EscreveArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.leituradearquivos.EscreveArquivo" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.semanas3e4.recursao.*" />
+          <option name="PATTERN" value="src.main.java.labirinto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lista1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas3e4.recursao.Lista1" />
+    <configuration name="Labirinto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.labirinto.Labirinto" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.semanas3e4.recursao.*" />
+          <option name="PATTERN" value="src.main.java.labirinto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrincipalBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.resources.interfaces.PrincipalBanco" />
+    <configuration name="LabirintoExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.labirinto.LabirintoExemplo" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.resources.interfaces.*" />
+          <option name="PATTERN" value="src.main.java.labirinto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Propriedades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.leituradearquivos.Propriedades" />
+      <module name="Programacao-e-Lab-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.labirinto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,24 +115,11 @@
       </method>
     </configuration>
     <configuration name="Recursao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas3e4.recursao.Recursao" />
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas5e6.Recursao" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.semanas3e4.recursao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="src.main.java.semanas1e2.interfaces.PrincipalBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.interfaces.PrincipalBanco" />
-      <module name="Programacao-e-Lab-II" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.semanas1e2.interfaces.*" />
+          <option name="PATTERN" value="src.main.java.semanas5e6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,20 +153,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Lista1" />
-      <item itemvalue="Application.Exercicios" />
+      <item itemvalue="Application.LabirintoExemplo" />
+      <item itemvalue="Application.Labirinto" />
+      <item itemvalue="Application.EscreveArquivo" />
       <item itemvalue="Application.Recursao" />
-      <item itemvalue="Application.PrincipalBanco" />
-      <item itemvalue="Application.src.main.java.semanas1e2.interfaces.PrincipalBanco" />
+      <item itemvalue="Application.Propriedades" />
       <item itemvalue="Maven.Programacao-e-Lab-II" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lista1" />
-        <item itemvalue="Application.Exercicios" />
+        <item itemvalue="Application.Labirinto" />
+        <item itemvalue="Application.LabirintoExemplo" />
         <item itemvalue="Application.Recursao" />
-        <item itemvalue="Application.src.main.java.semanas1e2.interfaces.PrincipalBanco" />
-        <item itemvalue="Application.PrincipalBanco" />
+        <item itemvalue="Application.EscreveArquivo" />
+        <item itemvalue="Application.Propriedades" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +200,11 @@
       <workItem from="1713141831038" duration="657000" />
       <workItem from="1713227113225" duration="562000" />
       <workItem from="1713485963629" duration="324000" />
-      <workItem from="1713486339214" duration="890000" />
+      <workItem from="1713486339214" duration="1702000" />
+      <workItem from="1713639058537" duration="7463000" />
+      <workItem from="1713720779364" duration="4614000" />
+      <workItem from="1714347902210" duration="2218000" />
+      <workItem from="1715215859714" duration="1521000" />
     </task>
     <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
       <created>1709854905023</created>
@@ -416,7 +430,63 @@
       <option name="project" value="LOCAL" />
       <updated>1713227499844</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add more exercises">
+      <created>1713564921786</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713564921786</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add classes to learn and practice reading text files">
+      <created>1713640228404</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713640228405</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add class to learn and practice listing directories">
+      <created>1713652048181</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713652048181</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add LeArquivo class">
+      <created>1713656717500</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713656717500</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add txt files">
+      <created>1713656742100</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713656742100</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add EscreveArquivo class to practive writing on files">
+      <created>1713721702263</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1713721702263</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add hino.txt">
+      <created>1713721729097</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1713721729097</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add Aluno and Recursao classes">
+      <created>1714347979642</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1714347979642</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,14 +504,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add exercises 3 and 4 and method to print bidimensional array of doubles" />
-    <MESSAGE value="Add exercises 5 and 6" />
-    <MESSAGE value="Add exercise 7" />
-    <MESSAGE value="Add exercise 8" />
-    <MESSAGE value="Add exercise 9" />
-    <MESSAGE value="Add exercise 10" />
-    <MESSAGE value="Add excecoes package with exercise about exception handling" />
-    <MESSAGE value="Rename main class" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add exercise about interfaces" />
     <MESSAGE value="Delete unused files" />
     <MESSAGE value="Add Recursao class to practice recursive methods" />
@@ -459,7 +522,15 @@
     <MESSAGE value="Add exercise 2" />
     <MESSAGE value="Add exercise 3" />
     <MESSAGE value="Refactor method findPositionOfLowerValue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor method findPositionOfLowerValue" />
+    <MESSAGE value="Add more exercises" />
+    <MESSAGE value="Add classes to learn and practice reading text files" />
+    <MESSAGE value="Add class to learn and practice listing directories" />
+    <MESSAGE value="Add LeArquivo class" />
+    <MESSAGE value="Add txt files" />
+    <MESSAGE value="Add EscreveArquivo class to practive writing on files" />
+    <MESSAGE value="Add hino.txt" />
+    <MESSAGE value="Add Aluno and Recursao classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Aluno and Recursao classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programacao_e_Lab_II$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1710205678381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

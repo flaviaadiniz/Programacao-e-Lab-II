@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Refactor Labirinto classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/semanas7e8/MetodosDePesquisa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add semanas7e8 with class about sequential search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/semanas7e8/PesquisaBinaria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +57,7 @@
       <recent name="src.main.java.labirinto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MetodosDePesquisa">
-    <configuration name="EscreveArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas1e2.leituradearquivos.EscreveArquivo" />
-      <module name="Programacao-e-Lab-II" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.labirinto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PesquisaBinaria">
     <configuration name="Labirinto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.labirinto.Labirinto" />
       <module name="Programacao-e-Lab-II" />
@@ -98,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MetodosDePesquisa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas7e8.MetodosDePesquisa" />
+    <configuration name="PesquisaBinaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas7e8.PesquisaBinaria" />
+      <module name="Programacao-e-Lab-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.semanas7e8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PesquisaSequencial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas7e8.PesquisaSequencial" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
@@ -150,20 +149,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MetodosDePesquisa" />
+      <item itemvalue="Application.PesquisaBinaria" />
+      <item itemvalue="Application.PesquisaSequencial" />
       <item itemvalue="Application.LabirintoExemplo" />
       <item itemvalue="Application.Labirinto" />
-      <item itemvalue="Application.EscreveArquivo" />
       <item itemvalue="Application.Recursao" />
       <item itemvalue="Maven.Programacao-e-Lab-II" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MetodosDePesquisa" />
+        <item itemvalue="Application.PesquisaBinaria" />
+        <item itemvalue="Application.PesquisaSequencial" />
         <item itemvalue="Application.Labirinto" />
         <item itemvalue="Application.LabirintoExemplo" />
         <item itemvalue="Application.Recursao" />
-        <item itemvalue="Application.EscreveArquivo" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +201,7 @@
       <workItem from="1713720779364" duration="4614000" />
       <workItem from="1714347902210" duration="2218000" />
       <workItem from="1715215859714" duration="2370000" />
-      <workItem from="1715639537804" duration="939000" />
+      <workItem from="1715639537804" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
       <created>1709854905023</created>
@@ -491,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715218176648</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add semanas7e8 with class about sequential search">
+      <created>1715644710202</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715644710202</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Delete unused files" />
     <MESSAGE value="Add Recursao class to practice recursive methods" />
     <MESSAGE value="Add factorial public method to verify if the argument sent on parameter is negative" />
     <MESSAGE value="Add a recursive method to verify if a number is part of an array" />
@@ -535,7 +540,8 @@
     <MESSAGE value="Add hino.txt" />
     <MESSAGE value="Add Aluno and Recursao classes" />
     <MESSAGE value="Refactor Labirinto classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Labirinto classes" />
+    <MESSAGE value="Add semanas7e8 with class about sequential search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add semanas7e8 with class about sequential search" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programacao_e_Lab_II$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1710205678381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

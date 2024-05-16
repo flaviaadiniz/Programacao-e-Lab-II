@@ -34,4 +34,26 @@ public class Classificacao {
         }
     }
 
+
+    // Bubblesort (Método da bolha): compara sempre de 2 em 2 e coloca o de valor menor na 1a posição entre as duas
+    // * é necessário mais de uma varredura - na primeira varredura, o maior valor sempre fica por último!
+
+    public static void bubbleSort(int[] array) {
+        int i = array.length - 1;
+
+        while (i > 0) {
+            int lastFlipped = 0;
+            for (int j = 0; j < i; j++) {
+                if (array[j] > array[j+1]) { // troca par de posição
+                    int T = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = T;
+                    lastFlipped = j;
+                }
+            }
+            i = lastFlipped;
+        }
+    }
+
+
 }

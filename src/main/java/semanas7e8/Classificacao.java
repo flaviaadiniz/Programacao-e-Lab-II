@@ -20,6 +20,12 @@ public class Classificacao {
         insertionSort(array1);
         selectionSort(array1);
 
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        insertionSort(a);
+        bubbleSort(a);
+        selectionSort(a);
+
+
     }
 
 

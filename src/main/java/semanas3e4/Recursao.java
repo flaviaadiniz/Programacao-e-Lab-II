@@ -1,4 +1,4 @@
-package src.main.java.semanas3e4.recursao;
+package src.main.java.semanas3e4;
 
 public class Recursao {
 

@@ -1,14 +1,14 @@
 package src.main.java.semanas9e10;
 
-public class Box {
+public class Box<T> {
 
-    Object object;
+    T object;
 
-    public void add(Object o) {
+    public void add(T o) {
         object = o;
     }
 
-    public Object get() {
+    public T get() {
         return object;
     }
 

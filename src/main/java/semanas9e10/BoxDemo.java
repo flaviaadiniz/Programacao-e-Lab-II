@@ -9,6 +9,9 @@ public class BoxDemo {
 
         integerBox.add(10);
 
+        // se tentarmos adicionar um valor não Integer, é gerado um erro em tempo de compilação (e não execução)
+        // ex: integerBox.add("10"); -> não compila!
+
         //solução ruim, por isso foi inventado o Generics
         Integer i = integerBox.get();
 

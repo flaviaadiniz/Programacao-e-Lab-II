@@ -1,4 +1,4 @@
-package src.main.java.semanas9e10;
+package src.main.java.semanas9e10.generics;
 
 public class BoxDemo {
 

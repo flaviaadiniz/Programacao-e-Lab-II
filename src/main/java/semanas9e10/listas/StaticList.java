@@ -5,6 +5,11 @@ public class StaticList<E> implements List<E> {
     protected E[] elements;
     int numElements;
 
+    public StaticList(int maxSize) {
+        elements = (E[]) new Object[maxSize];
+        numElements = 0;
+    }
+
     @Override
     public int numElements() {
         return 0;

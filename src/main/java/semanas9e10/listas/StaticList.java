@@ -12,17 +12,17 @@ public class StaticList<E> implements List<E> {
 
     @Override
     public int numElements() {
-        return 0;
+        return numElements;
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return numElements == 0;
     }
 
     @Override
     public boolean isFull() {
-        return false;
+        return numElements == elements.length;
     }
 
     @Override

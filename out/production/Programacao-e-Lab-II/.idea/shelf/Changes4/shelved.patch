@@ -1,0 +1,15 @@
+Index: out/production/Programacao-e-Lab-II/.idea/encodings.xml
+===================================================================
+diff --git a/out/production/Programacao-e-Lab-II/.idea/encodings.xml b/out/production/Programacao-e-Lab-II/.idea/encodings.xml
+deleted file mode 100644
+--- a/out/production/Programacao-e-Lab-II/.idea/encodings.xml	(revision 23dc0a10c41ceec151e5c096c10ae7bf54ecd789)
++++ /dev/null	(revision 23dc0a10c41ceec151e5c096c10ae7bf54ecd789)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file

@@ -4,65 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Adapt implementation of first methods">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes2/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes3/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes4/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes2/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes3/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/shelf/Changes4/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/labirinto/Labirinto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/labirinto/LabirintoExemplo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/labirinto/LabirintoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/ExerciciosArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/arraysbidimensionais/PrincipalArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/classesabstratas/Figura.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/classesabstratas/Principal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/classesabstratas/Retangulo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/classesabstratas/Triangulo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/excecoes/ArCondicionado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/excecoes/PrincipalTermometro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/interfaces/ContaBancaria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/interfaces/ContaCorrente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/interfaces/ContaPoupanca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/interfaces/PrincipalBanco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/interfaces/Rentavel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/leituradearquivos/EscreveArquivo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/leituradearquivos/LeArquivo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/leituradearquivos/LerConsole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/leituradearquivos/ListaDiretorios.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas1e2/leituradearquivos/Propriedades.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas3e4/Exercicios.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas3e4/Lista1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas3e4/Recursao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas5e6/Aluno.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas5e6/Recursao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/Classificacao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/PesquisaBinaria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/PesquisaSequencial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/exercicio4/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/exercicio4/Estoque.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/exercicio4/NaoPerecivel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/exercicio4/Perecivel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/exercicio4/Principal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/exercicio4/Produto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/resources/hino.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/resources/labirinto.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/resources/teste.txt" afterDir="false" />
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add exercicio4 package to practice sorting methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/BoxDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/labirinto/Labirinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labirinto/Labirinto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/labirinto/LabirintoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labirinto/LabirintoMain.java" afterDir="false" />
@@ -120,11 +64,11 @@
   </component>
   <component name="RunManager" selected="Application.BoxDemo">
     <configuration name="BoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas9e10.generics.BoxDemo" />
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas9e10.BoxDemo" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.semanas9e10.generics.*" />
+          <option name="PATTERN" value="src.main.java.semanas9e10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,9 +209,56 @@
       <workItem from="1715639537804" duration="9123000" />
       <workItem from="1715898089570" duration="9172000" />
       <workItem from="1716140452199" duration="10760000" />
-      <workItem from="1716856269778" duration="2578000" />
-      <workItem from="1717101708167" duration="2038000" />
-      <workItem from="1717283990082" duration="4194000" />
+      <workItem from="1716856269778" duration="309000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add shape classes, Principal class and main method">
+      <created>1709854905023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709854905023</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change instances of Retangulo, Circulo and Triangulo to type Figura">
+      <created>1709855821288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709855821288</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Round the results of Circulo area and perimeter">
+      <created>1709856127683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709856127683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactor and reorganize project">
+      <created>1710019770808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710019770808</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update unversioned files">
+      <created>1710025904180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710025904180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add first 4 exercises about arrays">
+      <created>1710025956489</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710025956489</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor methods and extract method to print arrays">
+      <created>1710028051437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710028051437</updated>
     </task>
     <task id="LOCAL-00008" summary="Add exercises 3 and 4 and method to print bidimensional array of doubles">
       <created>1710109143694</created>
@@ -563,56 +554,7 @@
       <option name="project" value="LOCAL" />
       <updated>1716078174455</updated>
     </task>
-    <task id="LOCAL-00050" summary="Add semanas9e10 with Box and BoxDemo">
-      <created>1716857451074</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1716857451074</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Change classes Box and BoxDemo to use Generics">
-      <created>1716858435738</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1716858435738</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Change classes Box and BoxDemo to use Generics">
-      <created>1716858646542</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1716858646542</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Reorganize semanas9e10 packages and classes">
-      <created>1717290747783</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1717290747783</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Add List and StaticList initial code">
-      <created>1717378070683</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1717378070683</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Add constructor do StaticList">
-      <created>1717378295056</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1717378295056</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Adapt implementation of first methods">
-      <created>1717467994531</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1717467994531</updated>
-    </task>
-    <option name="localTasksCounter" value="57" />
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,6 +573,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fix method for exercise 4" />
+    <MESSAGE value="Add method for exercise5" />
+    <MESSAGE value="Reorganize exercises" />
+    <MESSAGE value="Add exercise 1 to Lista1" />
+    <MESSAGE value="Refactor exercise 1" />
+    <MESSAGE value="Add exercise 2" />
     <MESSAGE value="Add exercise 3" />
     <MESSAGE value="Refactor method findPositionOfLowerValue" />
     <MESSAGE value="Add more exercises" />
@@ -650,13 +598,7 @@
     <MESSAGE value="Refactor package for semanas3e4" />
     <MESSAGE value="Add more examples of sorting" />
     <MESSAGE value="Add exercicio4 package to practice sorting methods" />
-    <MESSAGE value="Add semanas9e10 with Box and BoxDemo" />
-    <MESSAGE value="Change classes Box and BoxDemo to use Generics" />
-    <MESSAGE value="Reorganize semanas9e10 packages and classes" />
-    <MESSAGE value="Add List and StaticList initial code" />
-    <MESSAGE value="Add constructor do StaticList" />
-    <MESSAGE value="Adapt implementation of first methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapt implementation of first methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exercicio4 package to practice sorting methods" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programacao_e_Lab_II$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1710205678381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

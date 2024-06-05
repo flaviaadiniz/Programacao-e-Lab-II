@@ -38,7 +38,7 @@ public class Classificacao {
         System.out.println(Arrays.toString(array));
         for (int i = 1; i < array.length; i ++) {
             int j = i; // posição do primeiro elemento no segmento não ordenado
-            int B = array[i]; // primeiro elemento no segmento não ordenado
+            int B = array[i]; // valor do primeiro elemento no segmento não ordenado
 
             // busca a posição do primeiro elemento do segmento não ordenado no segmento ordenado
             while ((j > 0) && (array[j-1] > B)) {

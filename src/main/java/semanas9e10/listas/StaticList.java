@@ -29,11 +29,11 @@ public class StaticList<E> implements List<E> {
     }
 
     @Override
-    public void insert(E element, int position) throws StackOverflowError, IndexOutOfBoundsException {
+    public void insert(E element, int position) throws OverflowException, IndexOutOfBoundsException {
 
         // verifica se há espaço na lista
         if (isFull()) {
-            throw new StackOverflowError();
+            throw new OverflowException();
         }
 
         // verifica se a posição é válida
@@ -53,11 +53,11 @@ public class StaticList<E> implements List<E> {
     }
 
     @Override
-    public E remove(int position) throws BufferUnderflowException, IndexOutOfBoundsException {
+    public E remove(int position) throws UnderflowException, IndexOutOfBoundsException {
 
         // verifica se a lista está vazia
         if (isEmpty()) {
-            throw new BufferUnderflowException();
+            throw new UnderflowException();
         }
 
         // guarda uma referência temporária ao elemento removido

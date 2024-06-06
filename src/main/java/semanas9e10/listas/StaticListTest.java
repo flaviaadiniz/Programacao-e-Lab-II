@@ -13,13 +13,18 @@ public class StaticListTest {
         }
 
 
+
+
         System.out.println("Lista após inserções: ");
-        System.out.println(lista.toString());
+        System.out.println(lista);
 
-        System.out.println(lista.remove(5) + " foi removido da lista!");
+        System.out.println("\n" + lista.remove(5) + " foi removido da lista!");
 
-        System.out.println("Lista após remoção do elemento na posição 5: ");
-        System.out.println(lista.toString());
+        System.out.println("\nLista após remoção do elemento na posição 5: ");
+        System.out.println(lista);
+
+
+        System.out.println("\nNúmero de vezes que o número 2 aparece na lista: " + lista.contaElementos(2));
 
     }
 

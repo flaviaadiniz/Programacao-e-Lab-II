@@ -16,4 +16,7 @@ public interface List<E> {
 
     int search(E element);
 
+    int contaElementos(E elemento);
+
+
 }

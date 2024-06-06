@@ -1,6 +1,5 @@
 package src.main.java.semanas9e10.listas;
 
-import java.nio.BufferUnderflowException;
 import java.util.Arrays;
 
 public class StaticList<E> implements List<E> {
@@ -105,4 +104,27 @@ public class StaticList<E> implements List<E> {
                 "elements=" + Arrays.toString(elements) +
                 '}';
     }
+
+    public int contaElementos(E elemento) throws IllegalArgumentException {
+        if (elemento == null) {
+            throw new IllegalArgumentException("Elemento não pode ser nulo!");
+        }
+
+        return contaElementosPrivado(elemento, numElements, 0);
+    }
+
+    private int contaElementosPrivado(E elemento, int numElements, int contador) {
+        if (numElements == 0) {
+            return contador;
+        }
+
+        if (elements[numElements - 1] == elemento) {
+            contador++;
+        }
+
+        numElements--;
+
+        return contaElementosPrivado(elemento, numElements, contador);
+    }
+
 }

@@ -49,6 +49,7 @@ public class StaticList<E> implements List<E> {
         // armazena o novo elemento e ajusta o total
         elements[position] = element;
         numElements++;
+
     }
 
     @Override
@@ -72,21 +73,35 @@ public class StaticList<E> implements List<E> {
         numElements--;
 
         return element;
+
     }
 
     @Override
-    public E get(int position) {
-        return null;
+    public E get(int position) throws IndexOutOfBoundsException {
+
+        // verifica se a posição é válida
+        if (position < 0 || position >= numElements) {
+            throw new IndexOutOfBoundsException();
+        }
+        return elements[position];
+
     }
 
     @Override
     public int search(E element) {
-        return 0;
+        for (int i = 0; i < numElements; i++) {
+            if (element.equals(elements[i])) {
+                return i;
+            }
+        }
+
+        // se chegar até aqui, é porque não encontrou o elemento
+        return -1;
     }
 
     @Override
     public String toString() {
-        return "StaticList{" +
+        return "StaticList {" +
                 "elements=" + Arrays.toString(elements) +
                 '}';
     }

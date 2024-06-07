@@ -105,6 +105,18 @@ public class StaticList<E> implements List<E> {
                 '}';
     }
 
+
+    // -------------- exercícios de programação e laboratório -------------- //
+
+
+    /*
+    Na classe que representa uma lista estática (classe criada em aula), implemente um método RECURSIVO que recebe um
+    elemento por parâmetro e retorna a quantidade de vezes que este elemento aparece na lista. Você deve fazer os métodos
+    público e privado. Você deve utilizar a seguinte assinatura do método público:
+    public int contaElementos(E el) throws IllegalArgumentException
+    */
+
+    @Override
     public int contaElementos(E elemento) throws IllegalArgumentException {
         if (elemento == null) {
             throw new IllegalArgumentException("Elemento não pode ser nulo!");

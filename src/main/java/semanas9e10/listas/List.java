@@ -16,7 +16,10 @@ public interface List<E> {
 
     int search(E element);
 
+    // --- métodos criados nos exercícios de programação e laboratório --- //
+
     int contaElementos(E elemento);
 
+    Integer[] evenNumbers(List<Integer> lista);
 
 }

@@ -106,8 +106,8 @@ public class StaticList<E> implements List<E> {
     }
 
 
-    // -------------- exercícios de programação e laboratório -------------- //
 
+    // -------------- exercícios de programação e laboratório -------------- //
 
     /*
     Na classe que representa uma lista estática (classe criada em aula), implemente um método RECURSIVO que recebe um
@@ -137,6 +137,37 @@ public class StaticList<E> implements List<E> {
         numElements--;
 
         return contaElementosPrivado(elemento, numElements, contador);
+    }
+
+
+
+    /*
+    Implemente um método, em uma classe qualquer, que receba como parâmetro uma lista sequencial de números inteiros
+    (objetos do tipo Integer) e retorne um vetor contendo apenas os números pares desta lista. Para isso utilize a
+    seguinte assinatura: public Integer[] evenNumbers(List<Integer> lista).
+    */
+
+    @Override
+    public Integer[] evenNumbers(List<Integer> lista) {
+        int newArraySize = 0;
+
+        for (int i = 0; i < lista.numElements(); i++) {
+            if (lista.get(i) % 2 == 0) {
+                newArraySize++;
+            }
+        }
+
+        Integer[] newArray = new Integer[newArraySize];
+        int position = 0;
+
+        for (int i = 0; i < lista.numElements(); i++) {
+            if (lista.get(i) % 2 == 0) {
+                newArray[position] = lista.get(i);
+                position++;
+            }
+        }
+
+        return newArray;
     }
 
 }

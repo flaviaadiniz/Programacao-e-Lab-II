@@ -26,4 +26,6 @@ public interface List<E> {
 
     void postpendList(List<Double> t1, List<Double>t2);
 
+    void prependList(List<Double> t1, List<Double>t2);
+
 }

@@ -24,4 +24,6 @@ public interface List<E> {
 
     List<Character> mergeLists(List<Character> t1,List<Character> t2);
 
+    void postpendList(List<Double> t1, List<Double>t2);
+
 }

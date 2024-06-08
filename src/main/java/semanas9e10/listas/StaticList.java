@@ -206,11 +206,26 @@ public class StaticList<E> implements List<E> {
 
 
     /*
-    Implemente um método que recebe duas listast1et2e copia os elementos da segunda para o início da primeira.
-    Assinatura do método: public void prependList(List<Double> t1, List<Double>t2)
+    Implemente um método que recebe duas listas t1 e t2 e copia os elementos da segunda para o final da primeira.
+    Assinatura do método: public void postpendList(List<Double> t1, List<Double>t2)
     */
 
+    @Override
+    public void postpendList(List<Double> t1, List<Double> t2) {
 
+        if (t2.isEmpty()) {
+            System.out.println("Lista vazia!");
+        }
+
+        int t1NumElements = t1.numElements();
+
+        for (int i = 0; i < t2.numElements(); i++) {
+            if (!t1.isFull()) {
+                t1.insert(t2.get(i), t1NumElements);
+                t1NumElements++;
+            }
+        }
+    }
 
 
 }

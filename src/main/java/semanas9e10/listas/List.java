@@ -22,4 +22,6 @@ public interface List<E> {
 
     Integer[] evenNumbers(List<Integer> lista);
 
+    List<Character> mergeLists(List<Character> t1,List<Character> t2);
+
 }

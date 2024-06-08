@@ -170,4 +170,47 @@ public class StaticList<E> implements List<E> {
         return newArray;
     }
 
+
+
+    /*
+    Implemente um método que recebe duas listas e retorna uma terceira, contendo a intercalação dos elementos das duas
+    listas. Por exemplo, dadas as listas t1 = (A, B, C) e t2 = (D, E, F), a intercalação das duas deve produzir
+    (A, D, B, E, C, F). As listas originais não devem ser alteradas.
+    Assinatura do método: public List<Character> mergeLists(List<Character> t1,List<Character>t2)
+    */
+
+    @Override
+    public List<Character> mergeLists(List<Character> t1,List<Character> t2) throws OverflowException,
+            IndexOutOfBoundsException {
+
+        List<Character> newList = new StaticList<>(t1.numElements() + t2.numElements());
+
+        int cont1 = 0;
+        int cont2 = 0;
+
+        do {
+            if (cont1 < t1.numElements()) {
+                newList.insert(t1.get(cont1++), newList.numElements());
+            }
+
+            if (cont2 < t2.numElements()) {
+                newList.insert(t2.get(cont2++), newList.numElements());
+            }
+
+        } while (cont1 < t1.numElements() || cont2 < t2.numElements());
+
+        return newList;
+
+    }
+
+
+
+    /*
+    Implemente um método que recebe duas listast1et2e copia os elementos da segunda para o início da primeira.
+    Assinatura do método: public void prependList(List<Double> t1, List<Double>t2)
+    */
+
+
+
+
 }

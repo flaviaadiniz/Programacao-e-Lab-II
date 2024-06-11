@@ -231,7 +231,7 @@ public class StaticList<E> implements List<E> {
 
     /*
     Implemente um método que recebe duas listas t1 e t2 e copia os elementos da segunda para o início da primeira.
-    Assinatura do método: public void prependList(List<Double> t1, List<Double>t2)
+    Assinatura do método: public void prependList(List<Double> t1, List<Double> t2)
     */
 
     @Override
@@ -248,6 +248,14 @@ public class StaticList<E> implements List<E> {
         }
 
     }
+
+
+
+    /*
+    Implemente um método que remove da lista um elemento passado como parâmetro. Esse método retornatruequando o elemento
+    é achado e removido,falsecaso contrário. Será removida apenas a primeira ocorrência do elemento.
+    Assinatura do método: public boolean remove(E element)
+    */
 
 
 }

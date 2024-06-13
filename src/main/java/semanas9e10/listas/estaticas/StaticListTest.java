@@ -1,6 +1,4 @@
-package src.main.java.semanas9e10.listas;
-
-import java.util.Arrays;
+package src.main.java.semanas9e10.listas.estaticas;
 
 public class StaticListTest {
 
@@ -11,9 +9,6 @@ public class StaticListTest {
         for (int i = 0; i < 10; i++) {
             lista.insert(i*2, i);
         }
-
-
-
 
         System.out.println("Lista após inserções: ");
         System.out.println(lista);

@@ -1,4 +1,4 @@
-package src.main.java.semanas9e10.listas;
+package src.main.java.semanas9e10.listas.estaticas;
 
 public interface List<E> {
 

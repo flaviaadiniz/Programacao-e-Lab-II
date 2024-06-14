@@ -17,32 +17,60 @@ public class StaticStack<E> implements Stack<E> {
 
     @Override
     public int numElements() {
-        return 0;
+        return top + 1;
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return top == -1;
     }
 
     @Override
     public boolean isFull() {
-        return false;
+        return top == elements.length - 1;
     }
 
     @Override
     public E top() throws UnderflowException {
-        return null;
+        if (isEmpty()) {
+            throw new UnderflowException();
+        }
+        return elements[top];
     }
 
     @Override
     public void push(E element) throws OverflowException {
+        if (!isFull()) {
+            elements[++top] = element;
+        } else {
+            throw new OverflowException();
+        }
 
     }
 
     @Override
     public E pop() throws UnderflowException {
-        return null;
+        if (isEmpty()) {
+            throw new UnderflowException();
+        }
+        E element = elements[top];
+        elements[top--] = null;
+        return element;
+    }
+
+
+    @Override
+    public String toString() {
+        if (isEmpty())
+            return "[Empty]";
+        else {
+            String s = "[";
+            for (int i = numElements() - 1; i >= 0; i--) {
+                s += "\n" + elements[i];
+            }
+            s += "\n]";
+            return s;
+        }
     }
 
 }

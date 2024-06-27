@@ -23,13 +23,14 @@ public class StaticQueueTest {
             q.enqueue(7);
         } catch (OverflowException e) {
             System.out.println(e);
-        } catch (UnderflowException e)
-        {
+        } catch (UnderflowException e) {
             System.out.println(e);
         }
 
+        System.out.println(q);
 
 
     }
+
 
 }

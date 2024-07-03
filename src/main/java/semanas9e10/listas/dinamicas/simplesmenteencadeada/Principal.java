@@ -6,7 +6,7 @@ public class Principal {
 		
 		
 		//lista simplesmente encadeada
-		SinglyLinkedList<Integer> lista = new SinglyLinkedList<Integer>();
+		SinglyLinkedList<Integer> lista = new SinglyLinkedList<>();
 		
 		System.out.println("Lista Simplesmente Encadeada");
 		System.out.println("************\n");
@@ -32,39 +32,57 @@ public class Principal {
 		}catch (UnderflowException e) {
 			System.out.println(e);
 		}
-		
+
+
+		SinglyLinkedList<Integer> list2 = new SinglyLinkedList<>();
+
+		list2.insert(10,0);
+
+		list2.insert(9,0);
+
+		list2.insert(8,0);
+
+		list2.insert(7,0);
+
+		list2.insert(6,0);
+
+		list2.insert(5,0);
+
+		System.out.println(list2.toString());
+
+
 		/*
 		//lista duplamente encadeada
-		
-		DoublyLinkedList<Integer> list = new DoublyLinkedList<Integer>(); 
-		
+
+		DoublyLinkedList<Integer> list = new DoublyLinkedList<Integer>();
+
 		System.out.println("Lista Duplamente Encadeada");
 		System.out.println("************\n");
-		
-		
-		list.insertLast(2); 
-		list.insertLast(4); 
-		list.insertLast(6); 
-		list.insertLast(1); 
-		list.insertLast(8); 
-		list.insertLast(9); 
-		
+
+
+		list.insertLast(2);
+		list.insertLast(4);
+		list.insertLast(6);
+		list.insertLast(1);
+		list.insertLast(8);
+		list.insertLast(9);
+
 		System.out.println(list);
-		
-		try { 
-			list.removeFirst(); 
-		} catch (UnderflowException e) { 
-			e.printStackTrace(); 
-		} 
-		
+
+		try {
+			list.removeFirst();
+		} catch (UnderflowException e) {
+			e.printStackTrace();
+		}
+
 		System.out.println(list);
-		
-		try { 
-			list.removeLast(); 
-		} catch (UnderflowException e) { 
-			e.printStackTrace(); 
-		} 
-		
+
+		try {
+			list.removeLast();
+		} catch (UnderflowException e) {
+			e.printStackTrace();
+		}
+
 		System.out.println(list);
 		*/
 		

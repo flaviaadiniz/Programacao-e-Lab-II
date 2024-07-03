@@ -20,6 +20,8 @@ public class Classificacao {
         insertionSort(array1);
         selectionSort(array1);
 
+        System.out.println();
+
         int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         insertionSort(a);
         bubbleSort(a);
@@ -80,7 +82,6 @@ public class Classificacao {
     // - o processo de seleção é repetido para a parte restante do array, até que todos os elementos tenham sido selecionados
     //   e colocados em suas posições definitivas
     // ** NÃO ESTÁVEL
-
 
     public static void selectionSort(int[] array) {
         System.out.println(Arrays.toString(array));

@@ -156,7 +156,7 @@ public class SinglyLinkedList<E> implements List<E> {
 
 		Node<E> current = head;
 		while (current != null) {
-			s += current.getElement().toString() + " - " + current.getNext() + " | ";
+			s += current.getElement().toString() + " | ";
 			current = current.getNext();
 		}
 		return s;

@@ -7,10 +7,13 @@ import java.io.IOException;
 
 public class Labirinto {
 
+    private static String labirintoString = "src/main/resources/labirinto.txt";
 
-    public static void criaLabirinto() {
+    public Labirinto() {
+    }
 
-        String labirintoString = "src/main/resources/labirinto.txt";
+    public void criaLabirinto() {
+
         try {
             FileReader fileReader = new FileReader(labirintoString);
             BufferedReader bufferedReader = new BufferedReader(fileReader);

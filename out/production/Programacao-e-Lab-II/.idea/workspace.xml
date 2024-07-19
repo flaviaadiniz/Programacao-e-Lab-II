@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add listas dinamicas classes">
+    <list default="true" id="198718f8-4220-4f94-9141-a75d1a442db6" name="Changes" comment="Add tests for new methods">
       <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/labirinto/Labirinto.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/labirinto/LabirintoExemplo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/Exercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/classeslab2/OverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/classeslab2/StaticList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/classeslab2/UnderflowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/Classificacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao-e-Lab-II/src/main/java/semanas7e8/Classificacao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/labirinto/Labirinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labirinto/Labirinto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/semanas9e10/filas/StaticQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/semanas9e10/filas/StaticQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,20 @@
       <recent name="src.main.java.labirinto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercicio2">
+  <component name="RunManager" selected="Application.Classificacao">
+    <configuration name="Classificacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas7e8.Classificacao" />
+      <module name="Programacao-e-Lab-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.semanas7e8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.semanas9e10.Exercicio2" />
       <module name="Programacao-e-Lab-II" />
@@ -91,19 +98,6 @@
     </configuration>
     <configuration name="StaticListExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.semanas9e10.listas.estaticas.StaticListExercises" />
-      <module name="Programacao-e-Lab-II" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.semanas9e10.listas.estaticas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.semanas9e10.listas.estaticas.StaticListTest" />
       <module name="Programacao-e-Lab-II" />
       <extension name="coverage">
         <pattern>
@@ -167,20 +161,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Classificacao" />
       <item itemvalue="Application.Exercicio2" />
       <item itemvalue="Application.StaticQueueTest" />
       <item itemvalue="Application.StaticStackTest" />
       <item itemvalue="Application.StaticListExercises" />
-      <item itemvalue="Application.StaticListTest" />
       <item itemvalue="Maven.Programacao-e-Lab-II" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Classificacao" />
         <item itemvalue="Application.Exercicio2" />
         <item itemvalue="Application.StaticQueueTest" />
         <item itemvalue="Application.StaticStackTest" />
         <item itemvalue="Application.StaticListExercises" />
-        <item itemvalue="Application.StaticListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,35 +227,9 @@
       <workItem from="1718386649460" duration="67000" />
       <workItem from="1718410834817" duration="10027000" />
       <workItem from="1718658446190" duration="289000" />
-      <workItem from="1718659717113" duration="360000" />
-    </task>
-    <task id="LOCAL-00025" summary="Fix method for exercise 4">
-      <created>1712528379559</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1712528379559</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add method for exercise5">
-      <created>1712625846548</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1712625846548</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Reorganize exercises">
-      <created>1712797044843</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1712797044843</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Add exercise 1 to Lista1">
-      <created>1712798803614</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1712798803614</updated>
+      <workItem from="1718659717113" duration="3338000" />
+      <workItem from="1719454642802" duration="810000" />
+      <workItem from="1719965945164" duration="295000" />
     </task>
     <task id="LOCAL-00029" summary="Refactor exercise 1">
       <created>1712885283102</created>
@@ -578,7 +546,35 @@
       <option name="project" value="LOCAL" />
       <updated>1718410891572</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Add classeslab package">
+      <created>1718669630217</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1718669630218</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Update StaticQueueTest">
+      <created>1719454706414</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719454706415</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Update workspace.xml">
+      <created>1719454749166</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1719454749166</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Add tests for new methods">
+      <created>1719784850988</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719784850988</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,10 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add more examples of sorting" />
-    <MESSAGE value="Add exercicio4 package to practice sorting methods" />
-    <MESSAGE value="Add semanas9e10 with Box and BoxDemo" />
-    <MESSAGE value="Change classes Box and BoxDemo to use Generics" />
     <MESSAGE value="Reorganize semanas9e10 packages and classes" />
     <MESSAGE value="Add List and StaticList initial code" />
     <MESSAGE value="Add constructor do StaticList" />
@@ -622,7 +614,11 @@
     <MESSAGE value="Implement methods on StaticStack" />
     <MESSAGE value="Implement methods on StaticQueue" />
     <MESSAGE value="Add listas dinamicas classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add listas dinamicas classes" />
+    <MESSAGE value="Add classeslab package" />
+    <MESSAGE value="Update StaticQueueTest" />
+    <MESSAGE value="Update workspace.xml" />
+    <MESSAGE value="Add tests for new methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests for new methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

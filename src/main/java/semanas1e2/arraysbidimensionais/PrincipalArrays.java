@@ -89,6 +89,29 @@ public class PrincipalArrays {
         System.out.println("Array unidimensional de inteiros: " + Arrays.toString(ExerciciosArrays.exercicio10(array6)));
         System.out.println();
 
+
+        int[][] x = new int[3][2];
+
+        int c = 0;
+
+        for(int j=0; j<x[0].length; j++)
+
+            for(int i=0; i<x.length; i++)
+
+                x[i][j] = c++;
+
+
+        for(int i=0; i<x.length; i++){
+
+            for(int j=0; j<x[i].length; j++)
+
+                System.out.print(x[i][j]+ " ");
+
+            System.out.println();
+
+        }
+
+
     }
 
 }
